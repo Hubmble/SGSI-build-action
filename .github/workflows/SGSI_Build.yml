@@ -7,12 +7,12 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: https://dl.google.com/developers/android/sc/images/ota/redfin-ota-spp2.210219.008-3d61e529.zip
+  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD2049_A_1.9.3-update-full_1611211368.zip
   ZIP_NAME: test.zip
-  OS_TYPE: Pixel
+  OS_TYPE: Origin
   BUILD_TYPE: 'ab'
   REPACK_NAME: test_action.zip
-  VERSION: 12
+  VERSION: 11
   upload_WeTransfer: 'true'
   upload_action-gh-release: 'false'
   SETUP: 'true'
